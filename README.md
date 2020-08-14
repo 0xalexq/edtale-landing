@@ -5,8 +5,6 @@
 npm install
 ```
 
-## Link the Firebase app
-
 ## Deploy on Firebase Hosting
 
 The Firebase app will be configured after you execute all the commands the first time. Later you can only use the last command to deploy updates.

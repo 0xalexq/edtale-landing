@@ -1,0 +1,16 @@
+{
+  "name": "edtale-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "firebase:login": "node_modules/.bin/firebase login",
+    "firebase:deploy": "node_modules/.bin/firebase deploy",
+    "deploy": "npm run firebase:deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "firebase-tools": "^8.7.0"
+  }
+}

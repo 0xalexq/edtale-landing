@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "firebase:login": "node_modules/.bin/firebase login",
-    "firebase:deploy": "node_modules/.bin/firebase deploy",
+    "firebase:link": "npx firebase target:apply hosting landing edtale-com",
+    "firebase:login": "npx firebase login",
+    "firebase:deploy": "npx firebase deploy",
     "deploy": "npm run firebase:deploy"
   },
   "author": "",

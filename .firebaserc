@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "edtale-com"
+  },
+  "targets": {
+    "edtale-com": {
+      "hosting": {
+        "landing": [
+          "edtale-com"
+        ]
+      }
+    }
   }
 }

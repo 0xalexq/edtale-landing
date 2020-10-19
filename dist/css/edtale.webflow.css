@@ -6122,6 +6122,9 @@ blockquote {
   .image-2 {
     width: 130px;
   }
+  .image-3 {
+    margin-top: 52px;
+  }
   .container-4 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -6812,6 +6815,9 @@ blockquote {
     margin-top: 50px;
     margin-right: 0px;
   }
+  .column-3 {
+    margin-top: 30px;
+  }
   .image-5 {
     margin-left: -30px;
   }
@@ -7001,10 +7007,22 @@ blockquote {
     column-count: 1;
   }
   .value-grid {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto auto auto;
     grid-template-rows: auto auto auto;
+  }
+  .value-block {
+    display: block;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
   }
   .team-block {
     max-width: 400px;
@@ -7212,7 +7230,9 @@ blockquote {
   }
   .image-3 {
     display: block;
-    max-width: 82%;
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
   }
   .columns {
     margin-right: 0px;
@@ -7254,6 +7274,9 @@ blockquote {
 @media screen and (max-width: 479px) {
   .hero {
     padding-bottom: 0px;
+  }
+  .hero.inner {
+    height: 500px;
   }
   .container {
     margin-bottom: 0px;
@@ -7824,6 +7847,14 @@ blockquote {
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
     grid-column-end: span 2;
+  }
+  #w-node-cf7caef6139d-9f7a7d37 {
+    -ms-grid-column-align: auto;
+    justify-self: auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
   }
 }
 

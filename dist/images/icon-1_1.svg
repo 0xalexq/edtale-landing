@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="101px" viewBox="0 0 93 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-1</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="67" height="67" rx="33.5"></rect>
+        <filter x="-32.1%" y="-26.1%" width="164.2%" height="164.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0557801573 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0869755245 0" type="matrix" in="shadowOffsetOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.061052229 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="icon-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-16" transform="translate(13.000000, 17.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <rect id="Rectangle-Copy-3" stroke="#000000" opacity="0.0720563616" x="5" y="5" width="57" height="57" rx="28.5"></rect>
+        </g>
+        <g id="list-interface-symbol" transform="translate(36.500000, 41.928571)" fill="#000000" fill-rule="nonzero">
+            <path d="M18.8207189,0.0171797235 L5.96025806,0.0171797235 C5.43070968,0.0171797235 5.00136406,0.446525346 5.00136406,0.976073733 C5.00136406,1.50562212 5.43070968,1.93496774 5.96025806,1.93496774 L18.8207189,1.93496774 C19.3502304,1.93496774 19.7796129,1.50562212 19.7796129,0.976073733 C19.7796129,0.446525346 19.3502304,0.0171797235 18.8207189,0.0171797235 Z" id="Path"></path>
+            <path d="M18.8207189,4.98086636 L5.96025806,4.98086636 C5.43070968,4.98086636 5.00136406,5.41021198 5.00136406,5.93976037 C5.00136406,6.46930876 5.43070968,6.89865438 5.96025806,6.89865438 L18.8207189,6.89865438 C19.3502304,6.89865438 19.7796129,6.46930876 19.7796129,5.93976037 C19.7796129,5.41021198 19.3502304,4.98086636 18.8207189,4.98086636 Z" id="Path"></path>
+            <path d="M18.8207189,9.944553 L5.96025806,9.944553 C5.43070968,9.944553 5.00136406,10.3738986 5.00136406,10.903447 C5.00136406,11.4329585 5.43070968,11.862341 5.96025806,11.862341 L18.8207189,11.862341 C19.3502304,11.862341 19.7796129,11.4329954 19.7796129,10.903447 C19.7796129,10.3738986 19.3502304,9.944553 18.8207189,9.944553 Z" id="Path"></path>
+            <path d="M12.1540522,15.1902673 L5.96025806,15.1902673 C5.43070968,15.1902673 5.00136406,15.6196129 5.00136406,16.1491613 C5.00136406,16.6786728 5.43070968,17.1080553 5.96025806,17.1080553 L12.1540522,17.1080553 C12.6835637,17.1080553 13.1129462,16.6787097 13.1129462,16.1491613 C13.1129462,15.6196129 12.6835637,15.1902673 12.1540522,15.1902673 Z" id="Path"></path>
+            <circle id="Oval" cx="0.958894009" cy="0.976073733" r="1"></circle>
+            <circle id="Oval" cx="0.958894009" cy="5.93976037" r="1"></circle>
+            <circle id="Oval" cx="0.958894009" cy="10.903447" r="1"></circle>
+            <circle id="Oval" cx="0.958894009" cy="16.1491613" r="1"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="101px" viewBox="0 0 93 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-2</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="67" height="67" rx="33.5"></rect>
+        <filter x="-32.1%" y="-26.1%" width="164.2%" height="164.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0557801573 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0869755245 0" type="matrix" in="shadowOffsetOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.061052229 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="icon-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-16" transform="translate(13.000000, 17.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="checked" transform="translate(20.500000, 20.500000)" fill="#000000" fill-rule="nonzero">
+                <path d="M12.998987,0 C5.81947532,0 0,5.81947532 0,12.998987 C0,20.1784987 5.81947532,25.997974 12.998987,25.997974 C20.1776883,25.997974 25.997974,20.1776883 25.997974,12.998987 C25.997974,5.81947532 20.1776883,0 12.998987,0 Z M12.998987,24.3730753 C6.71725195,24.3730753 1.6248987,19.2807221 1.6248987,12.998987 C1.6248987,6.71725195 6.71725195,1.6248987 12.998987,1.6248987 C19.2807221,1.6248987 24.3730753,6.71725195 24.3730753,12.998987 C24.3730753,19.2807221 19.2807221,24.3730753 12.998987,24.3730753 Z" id="Shape"></path>
+                <path d="M18.9297558,8.44365195 L10.5713974,16.7272519 L7.09334026,13.3182805 C6.77323636,13.0006078 6.2533039,13.0006078 5.9332,13.3182805 C5.61228571,13.6359532 5.61228571,14.150213 5.9332,14.4670753 L9.99453506,18.4471688 C10.3276052,18.7404623 10.8256571,18.7729455 11.1546753,18.4471688 L20.090639,9.59244675 C20.4107429,9.27558442 20.4107429,8.76051429 20.090639,8.44365195 C19.7697922,8.12678961 19.2506701,8.12678961 18.9297558,8.44365195 Z" id="Path"></path>
+            </g>
+            <rect id="Rectangle-Copy-3" stroke="#000000" opacity="0.0720563616" x="5" y="5" width="57" height="57" rx="28.5"></rect>
+        </g>
+    </g>
+</svg>
